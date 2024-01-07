@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .max-container {
+        max-width: 1200px;
+        @apply mx-auto px-8 py-5 w-full;
+    }
+    .link-hover:hover {
+        @apply text-orange-400 underline
+    }
+}
